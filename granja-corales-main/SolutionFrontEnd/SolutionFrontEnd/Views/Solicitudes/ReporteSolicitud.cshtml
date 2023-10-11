@@ -1,0 +1,200 @@
+﻿@model SolutionFrontEnd.Models.Solicitudes
+
+@{
+    Layout = "";
+    ViewData["Title"] = "Reporte solicitud";
+}
+
+<!DOCTYPE html>
+<html lang="en"
+      dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Prevent the demo from appearing in search engines -->
+    <meta name="robots"
+          content="noindex">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&display=swap"
+          rel="stylesheet">
+
+    <!-- Preloader -->
+    <link type="text/css"
+          href="~/public/vendor/spinkit.css"
+          rel="stylesheet">
+
+    <!-- Perfect Scrollbar -->
+    <link type="text/css"
+          href="~/public/vendor/perfect-scrollbar.css"
+          rel="stylesheet">
+
+    <!-- Material Design Icons -->
+    <link type="text/css"
+          href="~/public/css/material-icons.css"
+          rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link type="text/css"
+          href="~/public/css/fontawesome.css"
+          rel="stylesheet">
+
+    <!-- Preloader -->
+    <link type="text/css"
+          href="~/public/css/preloader.css"
+          rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css"
+          href="~/public/css/app.css"
+          rel="stylesheet">
+
+</head>
+
+<body class="layout-app ">
+
+    <!-- Drawer Layout -->
+
+    <div class="mdk-drawer-layout js-mdk-drawer-layout"
+         data-push
+         data-responsive-width="992px">
+        <div class="mdk-drawer-layout__content page-content">
+
+            <!-- BEFORE Page Content -->
+
+            <div class="page-section bg-primary border-bottom-2">
+                <div class="container page__container">
+                    <h3 class="text-white">Tico Reef</h3>
+                    <div>
+                        <div style="width: 60%; float:left" class="col-sm-4 mb-24pt mb-lg-0">
+                            <br style="clear:both;" /><br /><br />
+                            <p class="text-black-70 mb-0"><strong>Realizada Por:</strong></p>
+                            <h4 class="text-black">@Model.IdUsuario</h4>
+                            <p class="text-black-70 mb-0"><strong>Estado:</strong></p>
+                            <h4 class="text-black">@Model.EstadoAprobacion</h4>
+                            
+                        </div>
+                        <div style="width: 40%; float:right" class="col-sm-4 mb-24pt">
+                            <br style="clear:both;" /><br><br>
+                            <p class="text-black-70 mb-0"><strong>Fecha de Solicitud:</strong></p>
+                            <h4 class="text-black">@Model.FecCreacion</h4>
+                            <p class="text-black-70 mb-0"><strong>N° de Solicitud:</strong></p>
+                            <h4 class="text-black">@Model.IdSolicitud</h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // END BEFORE Page Content -->
+    <!-- Page Content -->
+    <div class="mdk-drawer-layout js-mdk-drawer-layout"
+         data-push
+         data-responsive-width="992px">
+        <div class="mdk-drawer-layout__content page-content">
+            <div class="page-section container page__container">
+                <div class="page-separator">
+                    <div class="page-separator__text">Detalles</div>
+                </div>
+
+                <div class="card mb-lg-32pt">
+
+                    <div class="table-responsive"
+                         data-toggle="lists"
+                         data-lists-sort-by="js-lists-values-date"
+                         data-lists-sort-desc="true"
+                         data-lists-values='["js-lists-values-name", "js-lists-values-department", "js-lists-values-status", "js-lists-values-type", "js-lists-values-phone", "js-lists-values-date"]'>
+
+                        <table class="table mb-0 thead-border-top-0 table-nowrap">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th style="width: 150px;">
+                                        Nombre comun
+                                    </th>
+
+                                    <th style="width: 150px;">
+                                        Nombre cientifico
+                                    </th>
+
+                                    <th style="width: 48px;">
+                                        Color
+                                    </th>
+
+                                    <th style="width: 48px;">
+                                        Cantidad
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody class="list"
+                                   id="employees">
+                                @foreach (var item in Model.ArticulosSolicitud)
+                                {
+                                    <tr>
+                                        <td>
+                                            <img src="@Url.Content( item.IdArticuloNavigation.ImagePath)"
+                                                 width="104"
+                                                 class="mr-md-32pt mb-32pt mb-md-0"
+                                                 alt="instructor">
+                                        </td>
+                                        <td>
+                                            <p class="mb-0"><strong class="js-lists-values-name">@item.IdArticuloNavigation.NombreComun</strong></p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0"><strong class="js-lists-values-name">@item.IdArticuloNavigation.NombreCientifico</strong></p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0"><strong class="js-lists-values-name">@item.IdArticuloNavigation.Color</strong></p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0"><strong class="js-lists-values-name">@item.Cantidad</strong></p>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- // END Page Content -->
+
+        </div>
+
+        <!-- // END drawer-layout__content -->
+
+    </div>
+
+    <!-- // END Drawer Layout -->
+    <!-- jQuery -->
+    <script src="~/public/vendor/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="~/public/vendor/popper.min.js"></script>
+    <script src="~/public/vendor/bootstrap.min.js"></script>
+
+    <!-- Perfect Scrollbar -->
+    <script src="~//public/vendor/perfect-scrollbar.min.js"></script>
+
+    <!-- DOM Factory -->
+    <script src="~/public/vendor/dom-factory.js"></script>
+
+    <!-- MDK -->
+    <script src="~/public/vendor/material-design-kit.js"></script>
+
+    <!-- App JS -->
+    <script src="~/public/js/app.js"></script>
+
+    <!-- Preloader -->
+    <script src="~/public/js/preloader.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+﻿@model IEnumerable<SolutionFrontEnd.Models.Articulos>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Artículos";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a class="btn btn-accent" asp-action="Create">Crear un Nuevo Artículo</a>
+</p>
+<div class="card mb-lg-32pt">
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-flush mb-0 thead-border-top-0 table-nowrap">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NombreCientifico)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Familia)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Tipo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NombreComun)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Dificultad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Temperamento)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Color)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Dieta)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TamanoMax)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Origen)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TamanoMinPecera)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ModificadoPor)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.FecModificacion)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IdCategoriaNavigation)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NombreCientifico)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Familia)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Tipo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NombreComun)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Dificultad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Temperamento)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Color)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Dieta)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TamanoMax)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Origen)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TamanoMinPecera)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ModificadoPor)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FecModificacion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdCategoriaNavigation.Tipo)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.IdArticulo" class="btn-sm btn btn-dark btn-rounded">Editar</a> |
+                            <a asp-action="Details" asp-route-id="@item.IdArticulo" class="btn-sm btn btn-dark btn-rounded">Detalles</a> |
+                            <a asp-action="Delete" asp-route-id="@item.IdArticulo" class="btn-sm btn btn-dark btn-rounded">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

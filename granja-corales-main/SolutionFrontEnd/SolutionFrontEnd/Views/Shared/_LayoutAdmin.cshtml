@@ -1,0 +1,352 @@
+﻿    <!DOCTYPE html>
+    <html lang="en"
+          dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>@ViewData["Title"] - Admin</title>
+
+        <!-- Prevent the demo from appearing in search engines -->
+        <meta name="robots"
+              content="noindex">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&display=swap"
+              rel="stylesheet">
+
+        <!-- Preloader -->
+        <link type="text/css"
+              href="~/public/vendor/spinkit.css"
+              rel="stylesheet">
+
+        <!-- Perfect Scrollbar -->
+        <link type="text/css"
+              href="~//public/vendor/perfect-scrollbar.css"
+              rel="stylesheet">
+
+        <!-- Material Design Icons -->
+        <link type="text/css"
+              href="~/public/css/material-icons.css"
+              rel="stylesheet">
+
+        <!-- Font Awesome Icons -->
+        <link type="text/css"
+              href="~/public/css/fontawesome.css"
+              rel="stylesheet">
+
+        <!-- Preloader -->
+        <link type="text/css"
+              href="~/public/css/preloader.css"
+              rel="stylesheet">
+
+        <!-- App CSS -->
+        <link type="text/css"
+              href="~/public/css/app.css"
+              rel="stylesheet">
+
+        <!-- Flatpickr -->
+        <link type="text/css"
+              href="~/public/css/flatpickr.css"
+              rel="stylesheet">
+        <link type="text/css"
+              href="~/public/css/flatpickr-airbnb.css"
+              rel="stylesheet">
+
+    </head>
+
+    <body class="layout-app ">
+
+        <div class="preloader">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+
+            <!-- <div class="sk-bounce">
+              <div class="sk-bounce-dot"></div>
+              <div class="sk-bounce-dot"></div>
+            </div> -->
+            <!-- More spinner examples at https://github.com/tobiasahlin/SpinKit/blob/master/examples.html -->
+        </div>
+
+        <!-- Drawer Layout -->
+
+        <div class="mdk-drawer-layout js-mdk-drawer-layout"
+             data-push
+             data-responsive-width="992px">
+            <div class="mdk-drawer-layout__content page-content">
+
+                <!-- Header -->
+                <!-- Navbar -->
+
+                <div class="navbar navbar-expand pr-0 navbar-light border-bottom-2"
+                     id="default-navbar"
+                     data-primary>
+
+                    <!-- Navbar Toggler -->
+
+                    <button class="navbar-toggler w-auto mr-16pt d-block d-lg-none rounded-0"
+                            type="button"
+                            data-toggle="sidebar">
+                        <span class="material-icons">short_text</span>
+                    </button>
+
+                    <!-- // END Navbar Toggler -->
+                    <!-- Navbar Brand --> 
+
+                    <a asp-area="" asp-controller="Admin" asp-action="Index"
+                       class="navbar-brand mr-16pt d-lg-none">
+
+                        <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
+
+                            <span class="avatar-title rounded bg-primary">
+                                <img src="~/public/images/logo/TicoReefLogo.png" width="50px" height="50px"
+                                     alt="logo"
+                                     class="img-fluid" />
+                            </span>
+
+                        </span>
+
+                        <span class="d-none d-lg-block">Tico Reef</span>
+                    </a>
+
+                    <!-- // END Navbar Brand -->
+
+
+
+                    <div class="flex"></div>
+
+                    <!-- Navbar Menu -->
+
+                    <div class="nav navbar-nav flex-nowrap d-flex mr-16pt">
+
+                        <div class="nav-item">
+                            <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage" class="nav-link">Hola @User.Identity.Name!</a>
+                        </div>
+
+                        <div class="nav-item">
+                            <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-outline-accent">Volver a la tienda</a>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a href="#"
+                               class="nav-link d-flex align-items-center dropdown-toggle"
+                               data-toggle="dropdown"
+                               data-caret="false">
+
+                                <span class="avatar avatar-sm mr-8pt2">
+
+                                    <span class="avatar-title rounded-circle bg-primary"><i class="material-icons">account_box</i></span>
+
+                                </span>
+
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-header"><strong>Mi cuenta</strong></div>
+                                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                    <button type="submit" class="dropdown-item">Cerrar Sesión</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- // END Navbar Menu -->
+
+                </div>
+
+                <!-- // END Navbar -->
+                <!-- // END Header -->
+
+                <!-- Page Content -->
+
+                <div class="container page__container">
+                    @RenderBody()
+                </div>
+
+                <!-- // END Page Content -->
+                <!-- Footer -->
+
+                <div class="bg-white border-top-2 mt-auto">
+                    <div class="container page__container page-section d-flex flex-column">
+                        <div class="col-lg-3 mr-auto">
+                            <img src="~/public/images/logo/TicoReefLogoBW.png" width="150px" height="150px">
+                        </div>
+                        <p class="measure-lead-max text-white-50 small mr-8pt">¡Hogar de peces y corales!</p>
+                        <p class="mb-8pt d-flex">
+                            <a href=""
+                               class="text-70 text-underline mr-8pt small">Terms</a>
+                            <a href=""
+                               class="text-70 text-underline small">Privacy policy</a>
+                        </p>
+                        <p class="text-50 small mt-n1 mb-0">Copyright © 2021 By Tico Reef</p>
+                    </div>
+                </div>
+
+                <!-- // END Footer -->
+
+            </div>
+
+            <!-- // END drawer-layout__content -->
+            <!-- Drawer -->
+
+            <div class="mdk-drawer js-mdk-drawer"
+                 id="default-drawer">
+                <div class="mdk-drawer__content">
+                    <div class="sidebar sidebar-dark-pickled-bluewood sidebar-left"
+                         data-perfect-scrollbar>
+
+                        <!-- Sidebar Content -->
+
+                        <a asp-area="" asp-controller="Admin" asp-action="Index"
+                           class="sidebar-brand ">
+                            <!-- <img class="sidebar-brand-icon" src="../../public/images/illustration/student/128/white.svg" alt="Luma"> -->
+
+                            <span class="avatar avatar-xl sidebar-brand-icon h-auto">
+
+                                <span class="avatar-title rounded">
+                                    <img src="~/public/images/logo/TicoReefLogoW.png" width="150px" height="150px"
+                                         alt="logo" />
+                                </span>
+
+                            </span>
+
+                            <span>Tico Reef</span>
+                        </a>
+
+                        <div class="sidebar-heading">Dashboard</div>
+                        <ul class="sidebar-menu">
+
+                            <li class="sidebar-menu-item">
+                                <a asp-area="" asp-controller="Admin" asp-action="Index"
+                                   class="sidebar-menu-button js-sidebar-collapse">
+                                    
+                                    Dashboard
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        <div class="sidebar-heading">Mantenimiento</div>
+                        <ul class="sidebar-menu">
+
+                            <li class="sidebar-menu-item">
+                                <a asp-area="" asp-controller="Solicitudes" asp-action="Index"
+                                   class="sidebar-menu-button js-sidebar-collapse">
+                                    
+                                    Solicitudes
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a asp-area="" asp-controller="ArticulosSolicituds" asp-action="Index"
+                                   class="sidebar-menu-button js-sidebar-collapse">
+                                    
+                                    Artículos Solicitudes
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a asp-area="" asp-controller="Articulos" asp-action="Index"
+                                   class="sidebar-menu-button js-sidebar-collapse">
+                                    
+                                    Artículos
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a asp-area="" asp-controller="Categorias" asp-action="Index"
+                                   class="sidebar-menu-button js-sidebar-collapse">
+                                    
+                                    Categorías
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        <!-- <div class="sidebar-heading">Applications</div>
+    <ul class="sidebar-menu">
+
+        <li class="sidebar-menu-item">
+            <a class="sidebar-menu-button js-sidebar-collapse"
+               data-toggle="collapse"
+               href="#student_menu">
+                
+                Student
+                <span class="ml-auto sidebar-menu-toggle-icon"></span>
+            </a>
+            <ul class="sidebar-submenu collapse sm-indent"
+                id="student_menu">
+                <li class="sidebar-menu-item">
+                    <a class="sidebar-menu-button"
+                       href="student-take-quiz.html">
+
+                        <span class="sidebar-menu-text">Take Quiz</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="sidebar-menu-item">
+            <a class="sidebar-menu-button js-sidebar-collapse"
+               data-toggle="collapse"
+               href="#student_menu">
+                
+                Student
+                <span class="ml-auto sidebar-menu-toggle-icon"></span>
+            </a>
+            <ul class="sidebar-submenu collapse sm-indent"
+                id="student_menu">
+                <li class="sidebar-menu-item">
+                    <a class="sidebar-menu-button"
+                       href="student-take-quiz.html">
+
+                        <span class="sidebar-menu-text">Take Quiz</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+    </ul>-->
+                        <!-- // END Sidebar Content -->
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- // END Drawer -->
+
+        </div>
+
+        <!-- // END Drawer Layout -->
+        <!-- jQuery -->
+        <script src="~/public/vendor/jquery.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="~/public/vendor/popper.min.js"></script>
+        <script src="~/public/vendor/bootstrap.min.js"></script>
+
+        <!-- Perfect Scrollbar -->
+        <script src="~//public/vendor/perfect-scrollbar.min.js"></script>
+
+        <!-- DOM Factory -->
+        <script src="~/public/vendor/dom-factory.js"></script>
+
+        <!-- MDK -->
+        <script src="~/public/vendor/material-design-kit.js"></script>
+
+        <!-- App JS -->
+        <script src="~/public/js/app.js"></script>
+
+        <!-- Preloader -->
+        <script src="~/public/js/preloader.js"></script>
+
+        <!-- Flatpickr -->
+        <script src="~/public/vendor/flatpickr/flatpickr.min.js"></script>
+        <script src="~/public/js/flatpickr.js"></script>
+        @RenderSection("Scripts", required: false)
+    </body>
+
+</html>

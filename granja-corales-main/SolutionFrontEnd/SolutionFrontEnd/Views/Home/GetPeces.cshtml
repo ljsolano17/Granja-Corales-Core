@@ -1,0 +1,109 @@
+﻿@model IEnumerable<SolutionFrontEnd.Models.Articulos>
+@{
+    ViewData["Title"] = "Peces";
+}
+
+<div class="mdk-header-layout js-mdk-header-layout">
+    <div class="mdk-header-layout__content page-content ">
+
+        <div class="page-section bg-alt border-bottom-2">
+            <div class="container page__container">
+
+                <div class="d-flex flex-column flex-lg-row align-items-center">
+                    <div class="flex d-flex flex-column align-items-center align-items-lg-start mb-16pt mb-lg-0 text-center text-lg-left">
+                        <h1 class="h2 mb-8pt">Nuestros peces</h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="page-section">
+            <div class="container page__container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="page-separator">
+                            <div class="page-separator__text">Peces</div>
+                        </div>
+
+                        <div class="row card-group-row">
+                            @foreach (var item in Model)
+                            {
+                                @if (item.IdCategoria == 1)
+                                {
+
+                               
+                                <div class="col-sm-6 col-xl-3 card-group-row__col">
+
+                                    <div class="card card-sm card--elevated p-relative o-hidden overlay overlay--primary-dodger-blue js-overlay card-group-row__card undefined" data-toggle="popover" data-trigger="click" data-original-title="" title="" data-domfactory-upgraded="overlay">
+
+                                        <a asp-action="Details" asp-route-id="@item.IdArticulo" class="card-img-top js-image" data-position="center" data-height="140" data-domfactory-upgraded="image" style="display: block; position: relative; overflow: hidden; background-image: url(@item.ImagePath;); background-size: cover; background-position: center center; height: 140px;">
+                                            <img src="@item.ImagePath"
+                                                 height="140px" 
+                                                 style="background-position: center center; position:center;"
+                                                 class="mr-md-32pt mb-32pt mb-md-0"
+                                                 data-position="center"
+                                                 alt="articuloImagen">
+                                        </a>
+
+                                        <div class="card-body flex">
+                                            <div class="d-flex">
+                                                <div class="flex">
+                                                    <a class="card-title" asp-action="Details" asp-route-id="@item.IdArticulo">@item.NombreComun</a>
+                                                    <small class="text-50 font-weight-bold mb-4pt">@item.NombreCientifico</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="row justify-content-between">
+                                                <div class="col-auto d-flex align-items-center">
+                                                    <p class="flex text-50 lh-1 mb-0"><small>Color: @item.Color</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                }
+                            }
+                        </div>
+
+                        <div class="mb-32pt">
+
+                            <ul class="pagination justify-content-start pagination-xsm m-0">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true" class="material-icons">chevron_left</span>
+                                        <span>Prev</span>
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Page 1">
+                                        <span>1</span>
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Page 2">
+                                        <span>2</span>
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span>Siguiente</span>
+                                        <span aria-hidden="true" class="material-icons">chevron_right</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

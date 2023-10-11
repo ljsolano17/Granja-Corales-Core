@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en"
+      dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewData["Title"] - Tico Reef</title>
+
+    <!-- Prevent the demo from appearing in search engines -->
+    <meta name="robots"
+          content="noindex">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&display=swap"
+          rel="stylesheet">
+
+    <!-- Preloader -->
+    <link type="text/css"
+          href="~/public/vendor/spinkit.css"
+          rel="stylesheet">
+
+    <!-- Perfect Scrollbar -->
+    <link type="text/css"
+          href="~/public/vendor/perfect-scrollbar.css"
+          rel="stylesheet">
+
+    <!-- Material Design Icons -->
+    <link type="text/css"
+          href="~/public/css/material-icons.css"
+          rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link type="text/css"
+          href="~/public/css/fontawesome.css"
+          rel="stylesheet">
+
+    <!-- Preloader -->
+    <link type="text/css"
+          href="~/public/css/preloader.css"
+          rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css"
+          href="~/public/css/app.css"
+          rel="stylesheet">
+
+</head>
+
+<body class="layout-sticky-subnav layout-learnly ">
+
+    <div class="preloader">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+
+        <!-- <div class="sk-bounce">
+          <div class="sk-bounce-dot"></div>
+          <div class="sk-bounce-dot"></div>
+        </div> -->
+        <!-- More spinner examples at https://github.com/tobiasahlin/SpinKit/blob/master/examples.html -->
+    </div>
+
+    <!-- Header Layout -->
+    <div class="mdk-header-layout js-mdk-header-layout">
+
+        <!-- Header -->
+        <div id="header"
+             class="mdk-header js-mdk-header mb-0" data-fixed data-effects="waterfall">
+            <div class="mdk-header__content">
+                <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top py-3" id="mainNav">
+                    <div class="container">
+                        <img src="~/public/images/logo/TicoReefLogo.png" width="50px" height="50px" style="margin-right: 15px">
+                        <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand js-scroll-trigger">Tico Reef</a>
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                                <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="Index" class="nav-link">Inicio</a></li>
+                                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ticoReefTeam">Equipo</a></li>
+                                <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="GetPeces" class="nav-link">Peces</a></li>
+                                <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="GetCorales" class="nav-link">Corales</a></li>
+                                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/ticoreef/"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                            <partial name="_LoginPartial" />
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- // END Header -->
+        <!-- Header Layout Content -->
+        <div class="mdk-header-layout__content page-content ">
+
+            @RenderBody()
+
+        </div>
+        <!-- // END Header Layout Content -->
+        <!-- Footer -->
+        <footer class="bg-secondary py-5 text-white-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 mr-auto">
+                        <h5>Acerca</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#aboutUs">Acerca</a></li>
+                            <li><a class="text-muted" href="#ticoReefTeam">Equipo Tico Reef</a></li>
+                            <li><a class="text-muted" href="#corals">Tipos de Coral</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 mr-auto">
+                        <h5>Corales</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Mas Información</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 mr-auto">
+                        <h5>Peces</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Mas Información</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 mr-auto">
+                        <img src="~/public/images/logo/TicoReefLogoBW.png" width="150px" height="150px">
+                    </div>
+                </div>
+                <div class="small text-center text-muted">Copyright © 2021 By Tico Reef</div>
+            </div>
+        </footer>
+
+
+        <!-- // END Footer -->
+
+    </div>
+            <!-- // END Header Layout -->
+            <!-- Drawer -->
+            <!-- // END Drawer -->
+            <!-- jQuery -->
+            <script src="~/public/vendor/jquery.min.js"></script>
+
+            <!-- Bootstrap -->
+            <script src="~/public/vendor/popper.min.js"></script>
+            <script src="~/public/vendor/bootstrap.min.js"></script>
+
+            <!-- Perfect Scrollbar -->
+            <script src="~//public/vendor/perfect-scrollbar.min.js"></script>
+
+            <!-- DOM Factory -->
+            <script src="~/public/vendor/dom-factory.js"></script>
+
+            <!-- MDK -->
+            <script src="~/public/vendor/material-design-kit.js"></script>
+
+            <!-- App JS -->
+            <script src="~/public/js/app.js"></script>
+
+            <!-- Preloader -->
+            <script src="~/public/js/preloader.js"></script>
+            @RenderSection("Scripts", required: false)
+</body>
+
+</html>

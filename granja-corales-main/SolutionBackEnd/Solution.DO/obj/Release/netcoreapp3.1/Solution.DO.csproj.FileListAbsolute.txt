@@ -1,0 +1,9 @@
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DO\bin\Release\netcoreapp3.1\Solution.DO.deps.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DO\bin\Release\netcoreapp3.1\Solution.DO.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DO\bin\Release\netcoreapp3.1\Solution.DO.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DO\obj\Release\netcoreapp3.1\Solution.DO.csprojAssemblyReference.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DO\obj\Release\netcoreapp3.1\Solution.DO.AssemblyInfoInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DO\obj\Release\netcoreapp3.1\Solution.DO.AssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DO\obj\Release\netcoreapp3.1\Solution.DO.csproj.CoreCompileInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DO\obj\Release\netcoreapp3.1\Solution.DO.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DO\obj\Release\netcoreapp3.1\Solution.DO.pdb

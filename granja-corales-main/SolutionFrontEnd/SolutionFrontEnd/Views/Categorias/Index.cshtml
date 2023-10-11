@@ -1,0 +1,38 @@
+﻿@model IEnumerable<SolutionFrontEnd.Models.Categorias>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Categorías";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a class="btn btn-accent" asp-action="Create">Crear una Nueva Categoría</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tipo)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdCategoria" class="btn-sm btn btn-dark btn-rounded">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdCategoria" class="btn-sm btn btn-dark btn-rounded">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdCategoria" class="btn-sm btn btn-dark btn-rounded">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

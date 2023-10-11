@@ -1,0 +1,41 @@
+﻿@model IEnumerable<SolutionFrontEnd.Models.ArticulosSolicitud>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Artículos Solicitados";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdSolicitud)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdArticulo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdSolicitud)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdArticuloNavigation.NombreComun)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdArticuloSolicitud" class=" btn-sm btn btn-dark btn-rounded">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdArticuloSolicitud" class="btn-sm btn btn-dark btn-rounded">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdArticuloSolicitud" class="btn-sm btn btn-dark btn-rounded">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

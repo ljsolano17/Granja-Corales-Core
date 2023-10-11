@@ -1,0 +1,54 @@
+﻿@model IEnumerable<SolutionFrontEnd.Models.Solicitudes>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Solicitudes";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdSolicitud)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FecCreacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstadoAprobacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdUsuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdSolicitud)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FecCreacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstadoAprobacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdUsuario)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdSolicitud" class="btn-sm btn btn-dark btn-rounded">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdSolicitud" class="btn-sm btn btn-dark btn-rounded">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdSolicitud" class="btn-sm btn btn-dark btn-rounded">Eliminar</a> |
+                <a asp-action="ReporteSolicitud" asp-route-id="@item.IdSolicitud" class="btn-sm btn btn-dark btn-rounded">Reporte</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

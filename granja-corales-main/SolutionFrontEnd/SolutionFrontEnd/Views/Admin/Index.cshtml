@@ -1,0 +1,159 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container page__container page-section">
+
+    <div class="page-separator">
+        <div class="page-separator__text">Dashboard</div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card card-sm card--elevated p-relative o-hidden overlay overlay--primary js-overlay mdk-reveal js-mdk-reveal "
+                 data-overlay-onload-show
+                 data-popover-onload-show
+                 data-force-reveal
+                 data-partial-height="44"
+                 data-toggle="popover"
+                 data-trigger="click">
+                <a asp-area="" asp-controller="Solicitudes" asp-action="Index"
+                   class="js-image"
+                   data-position="">
+                    <img src="../../public/images/dashboard/solicitudes.png"
+                         alt="Solicitud">
+                    <span class="overlay__content align-items-start justify-content-start">
+                        <span class="overlay__action card-body d-flex align-items-center">
+                            <i class="material-icons mr-4pt">edit</i>
+                            <span class="card-title text-white">Edit</span>
+                        </span>
+                    </span>
+                </a>
+
+                <div class="mdk-reveal__content">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="flex">
+                                <a asp-area="" asp-controller="Solicitudes" asp-action="Index"
+                                   class="card-title mb-4pt">
+                                    Solicitudes
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card card-sm card--elevated p-relative o-hidden overlay overlay--primary js-overlay mdk-reveal js-mdk-reveal "
+                 data-overlay-onload-show
+                 data-popover-onload-show
+                 data-force-reveal
+                 data-partial-height="44"
+                 data-toggle="popover"
+                 data-trigger="click">
+                <a asp-area="" asp-controller="ArticulosSolicituds" asp-action="Index"
+                   class="js-image"
+                   data-position="">
+                    <img src="../../public/images/dashboard/artSol.png"
+                         alt="ArticulosSolicituds">
+                    <span class="overlay__content align-items-start justify-content-start">
+                        <span class="overlay__action card-body d-flex align-items-center">
+                            <i class="material-icons mr-4pt">edit</i>
+                            <span class="card-title text-white">Edit</span>
+                        </span>
+                    </span>
+                </a>
+
+                <div class="mdk-reveal__content">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="flex">
+                                <a asp-area="" asp-controller="ArticulosSolicituds" asp-action="Index"
+                                   class="card-title mb-4pt">
+                                    Solicitudes Articulos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card card-sm card--elevated p-relative o-hidden overlay overlay--primary js-overlay mdk-reveal js-mdk-reveal "
+                 data-overlay-onload-show
+                 data-popover-onload-show
+                 data-force-reveal
+                 data-partial-height="44"
+                 data-toggle="popover"
+                 data-trigger="click">
+                <a asp-area="" asp-controller="Articulos" asp-action="Index"
+                   class="js-image"
+                   data-position="">
+                    <img src="../../public/images/dashboard/articulos.png"
+                         alt="Articulos">
+                    <span class="overlay__content align-items-start justify-content-start">
+                        <span class="overlay__action card-body d-flex align-items-center">
+                            <i class="material-icons mr-4pt">edit</i>
+                            <span class="card-title text-white">Edit</span>
+                        </span>
+                    </span>
+                </a>
+
+                <div class="mdk-reveal__content">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="flex">
+                                <a asp-area="" asp-controller="Articulos" asp-action="Index"
+                                   class="card-title mb-4pt">
+                                    Articulos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-3">
+            <div class="card card-sm card--elevated p-relative o-hidden overlay overlay--primary js-overlay mdk-reveal js-mdk-reveal "
+                 data-overlay-onload-show
+                 data-popover-onload-show
+                 data-force-reveal
+                 data-partial-height="44"
+                 data-toggle="popover"
+                 data-trigger="click">
+                <a asp-area="" asp-controller="Categorias" asp-action="Index"
+                   class="js-image"
+                   data-position="">
+                    <img src="../../public/images/dashboard/categorias.png"
+                         alt="Categorias">
+                    <span class="overlay__content align-items-start justify-content-start">
+                        <span class="overlay__action card-body d-flex align-items-center">
+                            <i class="material-icons mr-4pt">edit</i>
+                            <span class="card-title text-white">Edit</span>
+                        </span>
+                    </span>
+                </a>
+
+                <div class="mdk-reveal__content">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="flex">
+                                <a asp-area="" asp-controller="Categorias" asp-action="Index"
+                                   class="card-title mb-4pt">
+                                    Categorias
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+

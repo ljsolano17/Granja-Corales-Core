@@ -1,0 +1,107 @@
+﻿@model SolutionFrontEnd.Models.Articulos
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Editar Artículo";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Artículos</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdArticulo" />
+            <div class="form-group">
+                <label asp-for="NombreCientifico" class="control-label"></label>
+                <input asp-for="NombreCientifico" class="form-control" />
+                <span asp-validation-for="NombreCientifico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Familia" class="control-label"></label>
+                <input asp-for="Familia" class="form-control" />
+                <span asp-validation-for="Familia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tipo" class="control-label"></label>
+                <input asp-for="Tipo" class="form-control" />
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NombreComun" class="control-label"></label>
+                <input asp-for="NombreComun" class="form-control" />
+                <span asp-validation-for="NombreComun" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dificultad" class="control-label"></label>
+                <input asp-for="Dificultad" class="form-control" />
+                <span asp-validation-for="Dificultad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Temperamento" class="control-label"></label>
+                <input asp-for="Temperamento" class="form-control" />
+                <span asp-validation-for="Temperamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Color" class="control-label"></label>
+                <input asp-for="Color" class="form-control" />
+                <span asp-validation-for="Color" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dieta" class="control-label"></label>
+                <input asp-for="Dieta" class="form-control" />
+                <span asp-validation-for="Dieta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TamanoMax" class="control-label"></label>
+                <input asp-for="TamanoMax" class="form-control" />
+                <span asp-validation-for="TamanoMax" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Origen" class="control-label"></label>
+                <input asp-for="Origen" class="form-control" />
+                <span asp-validation-for="Origen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TamanoMinPecera" class="control-label"></label>
+                <input asp-for="TamanoMinPecera" class="form-control" />
+                <span asp-validation-for="TamanoMinPecera" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ModificadoPor" class="control-label"></label>
+                <input asp-for="ModificadoPor" class="form-control" />
+                <span asp-validation-for="ModificadoPor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FecModificacion" class="control-label"></label>
+                <input asp-for="FecModificacion" class="form-control" />
+                <span asp-validation-for="FecModificacion" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="ImagePath" class="control-label"></label>
+                <input type="file" asp-for="ImagePath" class="form-control" />
+                <span asp-validation-for="ImagePath" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+                <label asp-for="IdCategoria" class="control-label"></label>
+                <select asp-for="IdCategoria" class="form-control" asp-items="ViewBag.IdCategoria"></select>
+                <span asp-validation-for="IdCategoria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-secondary" asp-action="Index">Regresar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

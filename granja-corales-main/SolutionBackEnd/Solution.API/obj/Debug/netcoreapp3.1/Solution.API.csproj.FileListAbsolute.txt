@@ -1,0 +1,594 @@
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.exe
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.deps.json
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.json
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.dev.json
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfoInputs.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfo.cs
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CoreCompileInputs.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.Manifest.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.xml
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Solution.API.styles.css
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.RazorTargetAssemblyInfo.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.genruntimeconfig.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csprojAssemblyReference.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CopyComplete
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.exe
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.deps.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.dev.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csprojAssemblyReference.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfoInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CoreCompileInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.Manifest.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.xml
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Solution.API.styles.css
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.RazorTargetAssemblyInfo.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CopyComplete
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.genruntimeconfig.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csprojAssemblyReference.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfoInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CoreCompileInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.exe
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.deps.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.dev.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.Manifest.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.xml
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Solution.API.styles.css
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.RazorTargetAssemblyInfo.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CopyComplete
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.genruntimeconfig.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.exe
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.deps.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.dev.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csprojAssemblyReference.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfoInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CoreCompileInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.Manifest.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.xml
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Solution.API.styles.css
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.RazorTargetAssemblyInfo.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CopyComplete
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.genruntimeconfig.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.exe
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.deps.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.dev.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csprojAssemblyReference.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfoInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CoreCompileInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.Manifest.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.xml
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Solution.API.styles.css
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.RazorTargetAssemblyInfo.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CopyComplete
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.genruntimeconfig.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.exe
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.deps.json
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.json
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.runtimeconfig.dev.json
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.API.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.BS.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csprojAssemblyReference.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfoInputs.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.AssemblyInfo.cs
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CoreCompileInputs.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.Manifest.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\staticwebassets\Solution.API.StaticWebAssets.xml
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Solution.API.styles.css
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.RazorTargetAssemblyInfo.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.csproj.CopyComplete
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.API\obj\Debug\netcoreapp3.1\Solution.API.genruntimeconfig.cache

@@ -1,0 +1,136 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Registrarse";
+}
+
+
+<div class="layout-default layout-login-centered-boxed">
+    <div class="layout-login-centered-boxed__form card">
+        <div class="d-flex flex-column justify-content-center align-items-center mt-2 navbar-light">
+            <a class="navbar-brand flex-column mb-2 align-items-center mr-0"
+               style="min-width: 0">
+                Registrarse
+            </a>
+        </div>
+
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group">
+                <label class="text-label" asp-for="Input.Email">Correo electrónico:</label>
+                <div class="input-group input-group-merge">
+                    <input class="form-control form-control-prepended" placeholder="john@doe.com" asp-for="Input.Email">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <span class="far fa-envelope"></span>
+                        </div>
+                    </div>
+                </div>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-label" asp-for="Input.Password">Contraseña:</label>
+                <div class="input-group input-group-merge">
+                    <input asp-for="Input.Password" class="form-control form-control-prepended" placeholder="Ingrese su contraseña">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <span class="fa fa-key"></span>
+                        </div>
+                    </div>
+                </div>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="text-label" asp-for="Input.ConfirmPassword">Confirmar contraseña:</label>
+                <div class="input-group input-group-merge">
+                    <input asp-for="Input.ConfirmPassword" class="form-control form-control-prepended" placeholder="Confirme su contraseña">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <span class="fa fa-key"></span>
+                        </div>
+                    </div>
+                </div>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button class="btn btn-block btn-primary"
+                        type="submit">
+                    Registrarse
+                </button>
+            </div>
+
+            <div class="form-group text-center">
+                ¿Ya tienes una cuenta?
+                <a class="text-body text-underline" asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">¡Inicia sesión!</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!--
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h4>Create a new account.</h4>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Input.Email"></label>
+                <input asp-for="Input.Email" class="form-control" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Password"></label>
+                <input asp-for="Input.Password" class="form-control" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.ConfirmPassword"></label>
+                <input asp-for="Input.ConfirmPassword" class="form-control" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+        <section>
+            <h4>Use another service to register.</h4>
+            <hr />
+            @{
+                if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div>
+                        <p>
+                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
+                            for details on setting up this ASP.NET application to support logging in via external services.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins)
+                                {
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                }
+                            </p>
+                        </div>
+                    </form>
+                }
+            }
+        </section>
+    </div>
+</div>
+-->
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

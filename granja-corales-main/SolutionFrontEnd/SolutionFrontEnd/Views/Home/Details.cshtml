@@ -1,0 +1,118 @@
+﻿@model SolutionFrontEnd.Models.ArticulosLista
+
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+<div class="mdk-drawer-layout js-mdk-drawer-layout"
+     data-push
+     data-responsive-width="992px">
+    <div class="mdk-drawer-layout__content page-content">
+
+        <div class="page-section bg-primary">
+
+            @if (ViewBag.Exito != null)
+            {
+            <div class="alert alert-primary" role="alert">
+                <div class="d-flex flex-wrap align-items-start">
+                    <div class="mr-8pt">
+                        <i class="material-icons">access_time</i>
+                    </div>
+                    <div class="flex" style="min-width: 180px">
+                        <small class="text-black-100">
+                            @ViewBag.Exito
+                        </small>
+                    </div>
+                </div>
+            </div>
+            }
+            else if (ViewBag.Error != null)
+            {
+            <div class="alert alert-accent" role="alert">
+                <div class="d-flex flex-wrap align-items-start">
+                    <div class="mr-8pt">
+                        <i class="material-icons-outlined">access_time</i>
+                    </div>
+                    <div class="flex" style="min-width: 180px">
+                        <small class="text-black-100">
+                            @ViewBag.Error
+                        </small>
+                    </div>
+                </div>
+            </div>
+            }
+
+
+            <div class="container page__container d-flex flex-column flex-md-row align-items-center text-center text-md-left">
+                <img src="@Url.Content( @Model.articulo.ImagePath)"
+                     width="204"
+                     class="mr-md-32pt mb-32pt mb-md-0"
+                     alt="instructor">
+                <div class="flex mb-32pt mb-md-0">
+                    <h2 class="text-white mb-0">@Model.articulo.NombreComun</h2>
+                    <p class="lead text-white-50 d-flex align-items-center">@Model.articulo.NombreCientifico</p>
+                </div>
+                @if (SignInManager.IsSignedIn(User))
+                {
+                 
+                     <form asp-action="AddArticuloSolicitud">
+                        <input type="hidden" asp-for="@Model.articulo.IdArticulo" />
+                        <label class="form-label text-white">Cantidad:</label>
+                        <input asp-for="Cantidad" class="form-control" value="1">
+                        <input type="submit" class="btn btn-accent" value="Agregar a mi lista de deseos">
+                    </form>
+                }
+            </div>
+        </div>
+
+        <div class="page-section bg-white border-bottom-2">
+            <div class="container page__container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Nombre Científico</h4>
+                        <strong class="d-flex align-items-center"><span class="material-icons-outlined text-50 mr-8pt"></span>@Model.articulo.NombreCientifico</strong>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Familia</h4>
+                        <strong class="d-flex align-items-center"><span class="material-icons-outlined text-50 mr-8pt"></span>@Model.articulo.Familia</strong>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Origen</h4>
+                        <strong class="d-flex align-items-center"><span class="material-icons-outlined text-50 mr-8pt"></span>@Model.articulo.Origen</strong>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Dieta</h4>
+                        <strong class="d-flex align-items-center"><span class="material-icons-outlined text-50 mr-8pt"></span>@Model.articulo.Dieta</strong>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Temperamento</h4>
+                        <strong class="d-flex align-items-center"><span class="material-icons-outlined text-50 mr-8pt"></span>@Model.articulo.Temperamento</strong>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Dificultad</h4>
+                        <strong class="d-flex align-items-center"><span class="material-icons-outlined text-50 mr-8pt"></span>@Model.articulo.Dificultad</strong>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Color</h4>
+                        <strong class="d-flex align-items-center"><span class="material-icons-outlined text-50 mr-8pt"></span>@Model.articulo.Color</strong>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Tamaño Máximo</h4>
+                        <strong class="d-flex align-items-center"><span class="material-icons-outlined text-50 mr-8pt"></span>@Model.articulo.TamanoMax</strong>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Tamaño Mínimo Pecera</h4>
+                        <strong class="d-flex align-items-center"><span class="material-icons-outlined text-50 mr-8pt"></span>@Model.articulo.TamanoMinPecera</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

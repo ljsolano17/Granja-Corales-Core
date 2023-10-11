@@ -1,0 +1,160 @@
+﻿@model IEnumerable<SolutionFrontEnd.Models.ArticulosLista>
+
+@{
+    ViewData["Title"] = "Lista de deseos";
+    int contador = 0;
+}
+
+<div class="mdk-drawer-layout js-mdk-drawer-layout"
+     data-push
+     data-responsive-width="992px">
+    <div class="mdk-drawer-layout__content page-content">
+
+        <div class="page-section bg-primary">
+
+
+            @if (ViewBag.Exito != null)
+            {
+                <div class="alert alert-primary" role="alert">
+                    <div class="d-flex flex-wrap align-items-start">
+                        <div class="mr-8pt">
+                            <i class="material-icons">access_time</i>
+                        </div>
+                        <div class="flex" style="min-width: 180px">
+                            <small class="text-black-100">
+                                @ViewBag.Exito
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            }
+            else if (ViewBag.Error != null)
+            {
+                <div class="alert alert-accent" role="alert">
+                    <div class="d-flex flex-wrap align-items-start">
+                        <div class="mr-8pt">
+                            <i class="material-icons">access_time</i>
+                        </div>
+                        <div class="flex" style="min-width: 180px">
+                            <small class="text-black-100">
+                                @ViewBag.Error
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+            <div class="container page__container d-flex flex-column flex-md-row align-items-center text-center text-md-left">
+                <img src="../../public/images/illustration/teacher/128/white.svg"
+                     width="104"
+                     class="mr-md-32pt mb-32pt mb-md-0"
+                     alt="instructor">
+                <div class="flex mb-32pt mb-md-0">
+                    <h2 class="text-white mb-0">Mi lista de deseos</h2>
+                </div>
+                @if (Model.Count() > 0)
+                {
+                    <a asp-action="RealizarSolicitud" class="btn btn-accent">Realizar solicitud</a>
+                }
+
+            </div>
+        </div>
+
+        <div class="page-section">
+            <div class="container page__container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="page-separator">
+                            <div class="page-separator__text">Artículos en mi lista de deseos</div>
+                        </div>
+
+                        @if (Model.Count() > 0)
+                        {
+                            <div class="card table-responsive">
+                                <table class="table table-flush table-nowrap">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Nombre común</th>
+                                            <th>Nombre científico</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    <img src="@Url.Content( item.articulo.ImagePath)"
+                                                         width="104"
+                                                         class="mr-md-32pt mb-32pt mb-md-0"
+                                                         alt="instructor">
+                                                </td>
+                                                <td>@item.articulo.NombreComun</td>
+                                                <td>@item.articulo.NombreCientifico</td>
+                                                <td>@item.Cantidad</td>
+                                                <td class="text-right">
+                                                    <div class="d-inline-flex align-items-center">
+                                                        <a asp-action="EliminarArticulo" asp-route-id="@item.articulo.IdArticulo" class="btn btn-sm btn-outline-secondary mr-16pt">Eliminar</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                        else
+                        {
+                    <h4>Todavía no has agregado artículos a tu lista de deseos</h4>
+                        }
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div
+    </div>
+</div>
+
+@section scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            if ($("input=[type=submit]").on('click', function (e) {
+                e.preventDefault();
+                var idarticulo = this.id;
+                var cantidad = $("#cantidad-" + idarticulo).val();
+                   
+
+                 $.ajax({
+                    url: "@Url.Action("EditarArticulo", "Home")", // Url
+                     data: {
+                         IdArticulo: idarticulo,
+                         Cantidad: cantidad,
+                    },
+                    type: "post"  // Verbo HTTP
+                })
+                .done(function (result) {
+                    
+                })
+                // Se ejecuta si se produjo un error.
+                .fail(function (xhr, status, error) {
+                    
+                })
+
+            })
+        });
+        
+    </script>
+
+}

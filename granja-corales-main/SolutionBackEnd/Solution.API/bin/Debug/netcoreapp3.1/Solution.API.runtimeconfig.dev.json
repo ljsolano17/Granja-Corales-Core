@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\virtu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\virtu\\.nuget\\packages"
+    ]
+  }
+}

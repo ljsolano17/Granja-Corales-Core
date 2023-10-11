@@ -1,0 +1,102 @@
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.json
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.dev.json
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.genruntimeconfig.cache
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\VII CUATRIMESTRE\PROGRAMACION AVANZADA WEB\Proyecto\BACKEND\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.dev.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\Proyecto Final Granja Corales\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.genruntimeconfig.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.dev.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ProyectoFinal\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.genruntimeconfig.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.dev.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\BranchLuis\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.genruntimeconfig.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.dev.json
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+D:\REPOSITORIO-GIT\Programacion Avanzada Web-IIICuatri2020\ENTREJABLE-PROGRA-GRANJA\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.genruntimeconfig.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.deps.json
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.json
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.runtimeconfig.dev.json
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DAL.EF.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\bin\Debug\netcoreapp3.1\Solution.DO.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csprojAssemblyReference.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfoInputs.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.AssemblyInfo.cs
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.csproj.CopyComplete
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.dll
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.pdb
+C:\Users\virtu\Desktop\granja-corales\SolutionBackEnd\Solution.DAL.Repository\obj\Debug\netcoreapp3.1\Solution.DAL.Repository.genruntimeconfig.cache

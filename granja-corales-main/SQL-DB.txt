@@ -1,0 +1,466 @@
+USE [master]
+GO
+/****** Object:  Database [GranjaCorales]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+CREATE DATABASE [GranjaCorales]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'GranjaCorales', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\GranjaCorales.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'GranjaCorales_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\GranjaCorales_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT
+GO
+ALTER DATABASE [GranjaCorales] SET COMPATIBILITY_LEVEL = 140
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [GranjaCorales].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [GranjaCorales] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET AUTO_CLOSE OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [GranjaCorales] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [GranjaCorales] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET  DISABLE_BROKER 
+GO
+ALTER DATABASE [GranjaCorales] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [GranjaCorales] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET RECOVERY FULL 
+GO
+ALTER DATABASE [GranjaCorales] SET  MULTI_USER 
+GO
+ALTER DATABASE [GranjaCorales] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [GranjaCorales] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [GranjaCorales] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [GranjaCorales] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [GranjaCorales] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [GranjaCorales] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+ALTER DATABASE [GranjaCorales] SET QUERY_STORE = OFF
+GO
+USE [GranjaCorales]
+GO
+/****** Object:  Table [dbo].[__EFMigrationsHistory]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[__EFMigrationsHistory](
+	[MigrationId] [nvarchar](150) NOT NULL,
+	[ProductVersion] [nvarchar](32) NOT NULL,
+ CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY CLUSTERED 
+(
+	[MigrationId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Articulos]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Articulos](
+	[id_articulo] [int] IDENTITY(1,1) NOT NULL,
+	[nombre_cientifico] [varchar](100) NULL,
+	[familia] [nchar](100) NULL,
+	[tipo] [nchar](100) NULL,
+	[nombre_comun] [varchar](100) NULL,
+	[dificultad] [varchar](50) NULL,
+	[temperamento] [varchar](50) NULL,
+	[color] [varchar](100) NULL,
+	[dieta] [varchar](50) NULL,
+	[tamano_max] [varchar](50) NULL,
+	[origen] [varchar](100) NULL,
+	[tamano_min_pecera] [varchar](50) NULL,
+	[modificado_por] [varchar](60) NULL,
+	[fec_modificacion] [datetime] NULL,
+	[imagePath] [varchar](150) NULL,
+	[id_categoria] [int] NULL,
+ CONSTRAINT [PK_Articulos] PRIMARY KEY CLUSTERED 
+(
+	[id_articulo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[ArticulosSolicitud]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ArticulosSolicitud](
+	[id_articulo_solicitud] [int] IDENTITY(1,1) NOT NULL,
+	[id_solicitud] [int] NOT NULL,
+	[id_articulo] [int] NOT NULL,
+	[cantidad] [int] NULL,
+ CONSTRAINT [PK_ArticulosSolicitud] PRIMARY KEY CLUSTERED 
+(
+	[id_articulo_solicitud] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[AspNetRoleClaims]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AspNetRoleClaims](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[RoleId] [nvarchar](450) NOT NULL,
+	[ClaimType] [nvarchar](max) NULL,
+	[ClaimValue] [nvarchar](max) NULL,
+ CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[AspNetRoles]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AspNetRoles](
+	[Id] [nvarchar](450) NOT NULL,
+	[Name] [nvarchar](256) NULL,
+	[NormalizedName] [nvarchar](256) NULL,
+	[ConcurrencyStamp] [nvarchar](max) NULL,
+ CONSTRAINT [PK_AspNetRoles] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[AspNetUserClaims]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AspNetUserClaims](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[UserId] [nvarchar](450) NOT NULL,
+	[ClaimType] [nvarchar](max) NULL,
+	[ClaimValue] [nvarchar](max) NULL,
+ CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[AspNetUserLogins]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AspNetUserLogins](
+	[LoginProvider] [nvarchar](128) NOT NULL,
+	[ProviderKey] [nvarchar](128) NOT NULL,
+	[ProviderDisplayName] [nvarchar](max) NULL,
+	[UserId] [nvarchar](450) NOT NULL,
+ CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY CLUSTERED 
+(
+	[LoginProvider] ASC,
+	[ProviderKey] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[AspNetUserRoles]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AspNetUserRoles](
+	[UserId] [nvarchar](450) NOT NULL,
+	[RoleId] [nvarchar](450) NOT NULL,
+ CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY CLUSTERED 
+(
+	[UserId] ASC,
+	[RoleId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[AspNetUsers]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AspNetUsers](
+	[Id] [nvarchar](450) NOT NULL,
+	[UserName] [nvarchar](256) NULL,
+	[NormalizedUserName] [nvarchar](256) NULL,
+	[Email] [nvarchar](256) NULL,
+	[NormalizedEmail] [nvarchar](256) NULL,
+	[EmailConfirmed] [bit] NOT NULL,
+	[PasswordHash] [nvarchar](max) NULL,
+	[SecurityStamp] [nvarchar](max) NULL,
+	[ConcurrencyStamp] [nvarchar](max) NULL,
+	[PhoneNumber] [nvarchar](max) NULL,
+	[PhoneNumberConfirmed] [bit] NOT NULL,
+	[TwoFactorEnabled] [bit] NOT NULL,
+	[LockoutEnd] [datetimeoffset](7) NULL,
+	[LockoutEnabled] [bit] NOT NULL,
+	[AccessFailedCount] [int] NOT NULL,
+ CONSTRAINT [PK_AspNetUsers] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[AspNetUserTokens]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AspNetUserTokens](
+	[UserId] [nvarchar](450) NOT NULL,
+	[LoginProvider] [nvarchar](128) NOT NULL,
+	[Name] [nvarchar](128) NOT NULL,
+	[Value] [nvarchar](max) NULL,
+ CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY CLUSTERED 
+(
+	[UserId] ASC,
+	[LoginProvider] ASC,
+	[Name] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Categorias]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Categorias](
+	[id_categoria] [int] NOT NULL,
+	[tipo] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_Categorias] PRIMARY KEY CLUSTERED 
+(
+	[id_categoria] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Solicitudes]    Script Date: 27/04/2021 05:11:35 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Solicitudes](
+	[id_solicitud] [int] IDENTITY(1,1) NOT NULL,
+	[fec_creacion] [datetime] NOT NULL,
+	[estado_solicitud] [varchar](50) NOT NULL,
+	[id_usuario] [nvarchar](450) NOT NULL,
+	[estado_aprobacion] [varchar](50) NULL,
+ CONSTRAINT [PK_Solicitudes] PRIMARY KEY CLUSTERED 
+(
+	[id_solicitud] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[Articulos] ON 
+
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (1, N'Centropyge bispinosa', N'Pomacanthidae                                                                                       ', N'Criado en cautividad                                                                                ', N'Pez ángel de belleza de coral criado en cautividad de Biota', N'Fácil', N'Semi-agresivos', N'Azul, naranja, amarillo', N'Omnívoro', N'4 "', N'Criado en cautiverio', N'70 galones', NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Pez_ángel_de_belleza_de_coral_criado_en_cautividad_de_Biota.jpg', 1)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (2, N'Zebrasoma flavescens', N'Acanthuridae                                                                                        ', N'Criado en cautividad                                                                                ', N'Espiga amarilla criada en cautividad de Biota                                                       ', N'Fácil', N'Semi-agresivo', N'Amarillo', N'Omnívoro', N'8 "', N'Criado en cautividad - EE. UU.', N'100 galones', NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Espiga_amarilla_criada_en_cautividad_de_Biota.jpg', 1)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (3, N'Nemateleotris decora', N'Gobiidae                                                                                            ', N'Pez nano                                                                                            ', N'Pez de fuego, morado', N'Fácil', N'Tranquilo', N'Morado, rojo, blanco, amarillo', N'Carnívoro', N'3¼ "', N'Indonesia', N'20 galones', N'Admin', CAST(N'2021-04-17T21:34:00.000' AS DateTime), N'../../public/images/articulos/Pez_de_fuego_morado.jpg', 1)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (4, N'Liopropoma carmabi', NULL, N'Pez nano                                                                                            ', N'Basslet de caramelo de aguas profundas', N'Moderar', N'Tranquilo', N'Naranja-lavanda', N'Carnívoro', N'2½ "', NULL, N'10 galones', N'', CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Basslet_de_caramelo_de_aguas_profundas.jpg', 1)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (5, N'Opistognathus rosenblatti', N'Opistognathidae                                                                                     ', N'Pez Nano                                                                                            ', N'Pez mandíbula, punto azul', N'Moderar', N'Semi-agresivo', N'Azul, naranja
+', N'Carnívoro', N'3½ "', N'México', N'30 galones', NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Pez_mandíbula_punto_azul.jpg', 1)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (6, N'Amphiprion ocellaris', N'Pomacentridae                                                                                       ', N'Criado en cautividad                                                                                ', N'Pez payaso Ocellaris, criado en cautividad
+', N'Fácil', N'Tranquilo', N'Negro, naranja, blanco', N'Omnívoro', N'3 "', N'Criado en cautiverio', N'20 galones
+', NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Pez_payaso_Ocellaris_criado_en_cautividad.jpg', 1)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (7, N'Centropyge bicolor', N'Pomacanthidae                                                                                       ', N'Pez angel, enano                                                                                    ', N'Pez ángel bicolor', N'Moderar', N'Semi-agresivo', N'Azul-amarillo', N'Omnívoro', N'6 "', N'Fiyi, Indonesia, Melanesia', N'70 galones', NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Pez_ángel_bicolor.jpg', 1)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (8, N'Paracentropyge multifasciata', N'Pomacanthidae                                                                                       ', N'Pez angel, enano                                                                                    ', N'Angel multibar', N'Solo experto', N'Semi-agresivo', NULL, N'Omnívoro', N'4½ "', N'Indonesia, Islas Marshall', N'70 galones', NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/angel_multibar.jpg', 1)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (9, N'Pomacanthus annularis', N'Pomacanthidae                                                                                       ', N'Pez angel, marino grande                                                                            ', N'Pez ángel Annularis', N'Moderar', N'Semi-agresivo', N'Azul, tostado, blanco', N'Omnívoro', N'1 ''', N'Criado en cautividad - Indonesia, Sri Lanka', N'220 galones', NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Pez_angel_Annularis.jpg', 1)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (10, N'Pygoplites diacanthus', N'Pomacanthidae                                                                                       ', N'Pez angel, marino grande                                                                            ', N'Angel real', N'Solo experto', N'Semi-agresivo
+', N'Negro, azul, blanco, amarillo', N'Omnívoro', N'10 "', N'Indonesia, Maldivas, Mar Rojo, Tahití', N'125 galones', NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/peces_ángel_real.jpg', 1)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (11, N'Acropora sp.', N'Acroporidae                                                                                         ', N'Corales duros SPS                                                                                   ', N'Coral Acropora surtido', N'Difícil', N'Tranquilo', N'Clasificado', N'Calcio, magnesio, estroncio, oligoelementos', NULL, N'Australia, Maricultura, Tonga', NULL, NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Coral_Acropora_surtido.jpg', 2)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (12, N'Acropora millepora', N'Acroporidae                                                                                         ', N'Corales duros SPS                                                                                   ', N'Rosa Millepora Acropora Coral', N'Moderar', N'Tranquilo', N'Rosa', N'Calcio, magnesio, estroncio, oligoelementos', NULL, NULL, NULL, NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Rosa_Millepora_Acropora_Coral.jpg', 2)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (13, N'Euphyllia ancora', N'Caryophylliidae                                                                                     ', N'Corales duros LPS                                                                                   ', N'Coral martillo', N'Moderar', N'Agresivo', N'Clasificado', N'Calcio, estroncio, oligoelementos', NULL, N'Acuicultura, Australia', NULL, NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Coral_martillo.jpg', 2)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (14, N'Homophyllia australis', N'Mussidae                                                                                            ', N'Corales duros LPS                                                                                   ', N'Coral australiano de la escolimia, coloreado', N'Fácil', N'Semi-agresivo', N'Rojo', N'Calcio, magnesio, estroncio, oligoelementos', NULL, N'Australia', NULL, NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Coral_australiano_de_la_escolimia_coloreado.jpg', 2)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (15, N'Lobophytum sp.', N'Alcyoniidae                                                                                         ', N'Corales blandos                                                                                     ', N'Coral de cuero de la mano del diablo', N'Fácil', N'Tranquilo', N'Verde, tostado, amarillo
+', N'Estroncio, yodo, oligoelementos', NULL, N'Australia, Maricultura, Tonga', NULL, NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Coral de cuero de la mano del diablo.jpg', 2)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (16, N'Xenia sp.', N'Xeniidae                                                                                            ', N'Corales blandos                                                                                     ', N'Mano que agita, tallo grueso', N'Fácil', N'Tranquilo', N'Negro, tostado, blanco', N'Yodo, Oligoelementos', NULL, N'Acuicultura, Tonga', NULL, NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Mano_que_agita_tallo_grueso.jpg', 2)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (17, N'Tubipora musica', NULL, N'Corales blandos                                                                                     ', N'Coral de órgano de tubos', N'Moderar', N'Tranquilo', N'Tan', N'Calcio, magnesio, estroncio, yodo, oligoelementos', NULL, N'Tonga', NULL, NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Coral_de_organo_de_tubos.jpg', 2)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (18, N'Montipora verrucosa', N'Acroporidae                                                                                         ', N'Corales duros SPS                                                                                   ', N'Coral Montipora, Hoyuelos incrustantes
+', N'Moderar', N'Tranquilo', N'Azul', N'Calcio, magnesio, estroncio, oligoelementos', NULL, N'Maricultura, Tonga', NULL, NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Coral_Montipora_Hoyuelos_incrustantes.jpg', 2)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (19, N'Favites spp.', N'Faviidae                                                                                            ', N'Corales duros LPS                                                                                   ', N'Brain Coral, Favites', N'Fácil', N'Agresivo', N'Verde, naranja, tostado, amarillo', N'Calcio, estroncio, oligoelementos', NULL, N'Indonesia, Maricultura, Tonga', NULL, NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Brain_Coral_Favites.jpg', 2)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (20, N'Zoanthus sp.', N'Zoanthidae                                                                                          ', N'Polipos                                                                                             ', N'Pólipo de colonia, rayas rosadas', N'Fácil', N'Semi-agresivo
+', N'Rosado morado', N'Yodo, Oligoelementos', NULL, N'Maricultura, Tonga', NULL, NULL, CAST(N'2021-04-17T00:00:00.000' AS DateTime), N'../../public/images/articulos/Polipo_de_colonia_rayas_rosadas.jpg', 2)
+INSERT [dbo].[Articulos] ([id_articulo], [nombre_cientifico], [familia], [tipo], [nombre_comun], [dificultad], [temperamento], [color], [dieta], [tamano_max], [origen], [tamano_min_pecera], [modificado_por], [fec_modificacion], [imagePath], [id_categoria]) VALUES (21, N'Hippocampus comes', N'Syngnathidae                                                                                        ', N'Caballito de mar                                                                                    ', N'Caballito de mar cola de tigre criado en cautiverio', N'Difícil', N'Tranquilo', N'Amarillo negro', N'Carnívoro', N'8 "', N'Criado en cautiverio, ORA®', N'30 galones', N'Admin', CAST(N'2021-04-17T21:29:00.000' AS DateTime), N'../../public/images/articulos/Caballito_de_mar_cola_de_tigre_criado_en_cautiverio_ORA®.jpg', 1)
+SET IDENTITY_INSERT [dbo].[Articulos] OFF
+GO
+SET IDENTITY_INSERT [dbo].[ArticulosSolicitud] ON 
+
+INSERT [dbo].[ArticulosSolicitud] ([id_articulo_solicitud], [id_solicitud], [id_articulo], [cantidad]) VALUES (1, 1, 10, 1)
+SET IDENTITY_INSERT [dbo].[ArticulosSolicitud] OFF
+GO
+INSERT [dbo].[AspNetRoles] ([Id], [Name], [NormalizedName], [ConcurrencyStamp]) VALUES (N'1', N'Admin', NULL, NULL)
+INSERT [dbo].[AspNetRoles] ([Id], [Name], [NormalizedName], [ConcurrencyStamp]) VALUES (N'2', N'Cliente', NULL, NULL)
+GO
+INSERT [dbo].[AspNetUserRoles] ([UserId], [RoleId]) VALUES (N'c33f20b6-0059-401d-88a6-c4c55c14cfc6', N'1')
+INSERT [dbo].[AspNetUserRoles] ([UserId], [RoleId]) VALUES (N'd30530e6-a06d-4556-9f82-8d9716821732', N'1')
+GO
+INSERT [dbo].[AspNetUsers] ([Id], [UserName], [NormalizedUserName], [Email], [NormalizedEmail], [EmailConfirmed], [PasswordHash], [SecurityStamp], [ConcurrencyStamp], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [LockoutEnd], [LockoutEnabled], [AccessFailedCount]) VALUES (N'57322e32-2843-491a-87a9-5d3919e779ae', N'ljsolano@gmail.com', N'LJSOLANO@GMAIL.COM', N'ljsolano@gmail.com', N'LJSOLANO@GMAIL.COM', 0, N'AQAAAAEAACcQAAAAEDCuID2GsPhaNqtVK8DTLMo0Yl+VAX7cULBGKWKdZVGH2PBXMiRpa6+aHhRsEIS2Eg==', N'27FS6BXJX7ETOZY4TZ26FPCWT5EK476D', N'9d9975b6-e7e4-4cc3-8bd4-7e42d418abc5', NULL, 0, 0, NULL, 1, 0)
+INSERT [dbo].[AspNetUsers] ([Id], [UserName], [NormalizedUserName], [Email], [NormalizedEmail], [EmailConfirmed], [PasswordHash], [SecurityStamp], [ConcurrencyStamp], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [LockoutEnd], [LockoutEnabled], [AccessFailedCount]) VALUES (N'6a9f8591-11f5-47d9-b13e-03b263db8549', N'mstevenrg@gmail.com', N'MSTEVENRG@GMAIL.COM', N'mstevenrg@gmail.com', N'MSTEVENRG@GMAIL.COM', 0, N'AQAAAAEAACcQAAAAEE6PbPP7f5KKETdEScU1ldAaoh07yCugYQIYd/9PSA9kpG3KqAayQTxGi0DC/jIVcQ==', N'VSUR6YCSOXVQ4XWL64NYS4OCFGHD6OZZ', N'a46446db-2339-4c92-abc9-666b16d2e646', NULL, 0, 0, NULL, 1, 0)
+INSERT [dbo].[AspNetUsers] ([Id], [UserName], [NormalizedUserName], [Email], [NormalizedEmail], [EmailConfirmed], [PasswordHash], [SecurityStamp], [ConcurrencyStamp], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [LockoutEnd], [LockoutEnabled], [AccessFailedCount]) VALUES (N'c33f20b6-0059-401d-88a6-c4c55c14cfc6', N'admin2@ticoreef.com', N'ADMIN2@TICOREEF.COM', N'admin2@ticoreef.com', N'ADMIN2@TICOREEF.COM', 0, N'AQAAAAEAACcQAAAAEDrOT/nDQzdQJy/6aD+JZSK5rAGsz23Q2TB/Ge9hPRkM2ew7UrFW6aTHG+3f8lLPlw==', N'ZQNGZDFKKIRHPL6TLTWPUTBH7AN2CJPZ', N'ea9e3050-7f91-44a7-ac50-0d025eff6898', NULL, 0, 0, NULL, 1, 0)
+INSERT [dbo].[AspNetUsers] ([Id], [UserName], [NormalizedUserName], [Email], [NormalizedEmail], [EmailConfirmed], [PasswordHash], [SecurityStamp], [ConcurrencyStamp], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [LockoutEnd], [LockoutEnabled], [AccessFailedCount]) VALUES (N'd30530e6-a06d-4556-9f82-8d9716821732', N'allan_hb96@hotmail.com', N'ALLAN_HB96@HOTMAIL.COM', N'allan_hb96@hotmail.com', N'ALLAN_HB96@HOTMAIL.COM', 0, N'AQAAAAEAACcQAAAAEIfVgFLR2bsossaNETHfyKeFi8Q0jMH37x9xRGInp1nRz9NxxJuIgtdhyMUgGyTlfg==', N'D5JPBA3T2DR4MQMKP5HNYQEH7CKHILLH', N'843fc065-5871-447a-a9ef-7f251b3d60a5', NULL, 0, 0, NULL, 1, 0)
+INSERT [dbo].[AspNetUsers] ([Id], [UserName], [NormalizedUserName], [Email], [NormalizedEmail], [EmailConfirmed], [PasswordHash], [SecurityStamp], [ConcurrencyStamp], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [LockoutEnd], [LockoutEnabled], [AccessFailedCount]) VALUES (N'eab32022-4a41-4430-864e-ff34f1363a0b', N'luis@hotmail.com', N'LUIS@HOTMAIL.COM', N'luis@hotmail.com', N'LUIS@HOTMAIL.COM', 0, N'AQAAAAEAACcQAAAAELHv8jcNfC7qrTM1twAQcRV4lH61UHyUHHPP0xhT4cWuKSuXg+7ZcMcKCILNeHOf0A==', N'3M6AVGUREJFCWDBJZDLVOISXUHXPROE4', N'6133da23-1e4e-4a0e-842a-3d14ce1c643d', NULL, 0, 0, NULL, 1, 0)
+GO
+INSERT [dbo].[Categorias] ([id_categoria], [tipo]) VALUES (1, N'Pez')
+INSERT [dbo].[Categorias] ([id_categoria], [tipo]) VALUES (2, N'Coral')
+GO
+SET IDENTITY_INSERT [dbo].[Solicitudes] ON 
+
+INSERT [dbo].[Solicitudes] ([id_solicitud], [fec_creacion], [estado_solicitud], [id_usuario], [estado_aprobacion]) VALUES (1, CAST(N'2021-04-17T21:09:38.227' AS DateTime), N'1', N'6a9f8591-11f5-47d9-b13e-03b263db8549', N'Enviada')
+SET IDENTITY_INSERT [dbo].[Solicitudes] OFF
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [IX_AspNetRoleClaims_RoleId]    Script Date: 27/04/2021 05:11:36 p. m. ******/
+CREATE NONCLUSTERED INDEX [IX_AspNetRoleClaims_RoleId] ON [dbo].[AspNetRoleClaims]
+(
+	[RoleId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [RoleNameIndex]    Script Date: 27/04/2021 05:11:36 p. m. ******/
+CREATE UNIQUE NONCLUSTERED INDEX [RoleNameIndex] ON [dbo].[AspNetRoles]
+(
+	[NormalizedName] ASC
+)
+WHERE ([NormalizedName] IS NOT NULL)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [IX_AspNetUserClaims_UserId]    Script Date: 27/04/2021 05:11:36 p. m. ******/
+CREATE NONCLUSTERED INDEX [IX_AspNetUserClaims_UserId] ON [dbo].[AspNetUserClaims]
+(
+	[UserId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [IX_AspNetUserLogins_UserId]    Script Date: 27/04/2021 05:11:36 p. m. ******/
+CREATE NONCLUSTERED INDEX [IX_AspNetUserLogins_UserId] ON [dbo].[AspNetUserLogins]
+(
+	[UserId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [IX_AspNetUserRoles_RoleId]    Script Date: 27/04/2021 05:11:36 p. m. ******/
+CREATE NONCLUSTERED INDEX [IX_AspNetUserRoles_RoleId] ON [dbo].[AspNetUserRoles]
+(
+	[RoleId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [EmailIndex]    Script Date: 27/04/2021 05:11:36 p. m. ******/
+CREATE NONCLUSTERED INDEX [EmailIndex] ON [dbo].[AspNetUsers]
+(
+	[NormalizedEmail] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [UserNameIndex]    Script Date: 27/04/2021 05:11:36 p. m. ******/
+CREATE UNIQUE NONCLUSTERED INDEX [UserNameIndex] ON [dbo].[AspNetUsers]
+(
+	[NormalizedUserName] ASC
+)
+WHERE ([NormalizedUserName] IS NOT NULL)
+WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[ArticulosSolicitud] ADD  DEFAULT ((1)) FOR [cantidad]
+GO
+ALTER TABLE [dbo].[Solicitudes] ADD  DEFAULT ('Enviada') FOR [estado_aprobacion]
+GO
+ALTER TABLE [dbo].[Articulos]  WITH CHECK ADD  CONSTRAINT [FK_Articulos_Categorias] FOREIGN KEY([id_categoria])
+REFERENCES [dbo].[Categorias] ([id_categoria])
+GO
+ALTER TABLE [dbo].[Articulos] CHECK CONSTRAINT [FK_Articulos_Categorias]
+GO
+ALTER TABLE [dbo].[ArticulosSolicitud]  WITH CHECK ADD  CONSTRAINT [FK_ArticulosSolicitud_Articulos] FOREIGN KEY([id_articulo])
+REFERENCES [dbo].[Articulos] ([id_articulo])
+GO
+ALTER TABLE [dbo].[ArticulosSolicitud] CHECK CONSTRAINT [FK_ArticulosSolicitud_Articulos]
+GO
+ALTER TABLE [dbo].[ArticulosSolicitud]  WITH CHECK ADD  CONSTRAINT [FK_ArticulosSolicitud_Solicitudes] FOREIGN KEY([id_solicitud])
+REFERENCES [dbo].[Solicitudes] ([id_solicitud])
+GO
+ALTER TABLE [dbo].[ArticulosSolicitud] CHECK CONSTRAINT [FK_ArticulosSolicitud_Solicitudes]
+GO
+ALTER TABLE [dbo].[AspNetRoleClaims]  WITH CHECK ADD  CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY([RoleId])
+REFERENCES [dbo].[AspNetRoles] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[AspNetRoleClaims] CHECK CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId]
+GO
+ALTER TABLE [dbo].[AspNetUserClaims]  WITH CHECK ADD  CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY([UserId])
+REFERENCES [dbo].[AspNetUsers] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[AspNetUserClaims] CHECK CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId]
+GO
+ALTER TABLE [dbo].[AspNetUserLogins]  WITH CHECK ADD  CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY([UserId])
+REFERENCES [dbo].[AspNetUsers] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[AspNetUserLogins] CHECK CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId]
+GO
+ALTER TABLE [dbo].[AspNetUserRoles]  WITH CHECK ADD  CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY([UserId])
+REFERENCES [dbo].[AspNetUsers] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[AspNetUserRoles] CHECK CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId]
+GO
+ALTER TABLE [dbo].[AspNetUserTokens]  WITH CHECK ADD  CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY([UserId])
+REFERENCES [dbo].[AspNetUsers] ([Id])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[AspNetUserTokens] CHECK CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId]
+GO
+USE [master]
+GO
+ALTER DATABASE [GranjaCorales] SET  READ_WRITE 
+GO

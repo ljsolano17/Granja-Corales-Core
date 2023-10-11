@@ -1,0 +1,28 @@
+﻿@model SolutionFrontEnd.Models.Categorias
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Eliminar Categorías";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h3>¿Está seguro que desea eliminarlo?</h3>
+<div>
+    <h4>Categorías</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdCategoria" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a class="btn btn-secondary" asp-action="Index">Regresar</a>
+    </form>
+</div>

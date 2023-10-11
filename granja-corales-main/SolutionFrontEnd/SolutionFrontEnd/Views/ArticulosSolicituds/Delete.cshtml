@@ -1,0 +1,34 @@
+﻿@model SolutionFrontEnd.Models.ArticulosSolicitud
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Eliminar artículo";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h3>¿Está seguro que desea eliminarlo?</h3>
+<div>
+    <h4>Artículo Solicitud</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdArticuloNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdArticuloNavigation.IdArticulo)
+        </dd class>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdSolicitudNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdSolicitudNavigation.EstadoSolicitud)
+        </dd class>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdArticuloSolicitud" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a class="btn btn-secondary" asp-action="Index">Regresar</a>
+    </form>
+</div>

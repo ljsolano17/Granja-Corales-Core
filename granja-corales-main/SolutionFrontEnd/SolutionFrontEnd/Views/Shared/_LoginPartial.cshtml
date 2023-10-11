@@ -1,0 +1,67 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+
+<div class="nav navbar-nav ml-auto mr-0 flex-nowrap d-flex">
+    <div class="nav-item">
+        <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage" class="nav-link">Hola @User.Identity.Name!</a>
+    </div>
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="nav-item">
+            <a asp-area="" asp-controller="Admin" asp-action="Index" class="btn btn-outline-accent">Área de administración</a>
+        </div>
+    }
+    
+    <div class="nav-item dropdown">
+        <a href="#" class="nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown" data-caret="false" aria-expanded="false">
+
+            <span class="avatar avatar-sm mr-8pt2">
+                <span class="avatar-title rounded-circle bg-primary"><i class="material-icons">account_box</i></span>
+            </span>
+
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+            <div class="dropdown-header"><strong>Mi cuenta</strong></div>
+            <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="ListaDeseos">Mi lista de deseos</a>
+            <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="MisSolicitudes">Mis solicitudes</a>
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="dropdown-item">Cerrar Sesión</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+        <!--<li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity.Name!</a>
+        </li>
+        <li class="nav-item">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            </form>
+        </li>-->
+    }
+    else
+    {
+
+        <ul class="nav navbar-nav ml-auto mr-0">
+            <li class="nav-item">
+                <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-outline-accent">Iniciar sesión</a>
+            </li>
+            <li class="nav-item">
+                <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-outline-primary">Registrarse</a>
+            </li>
+        </ul>
+
+
+        <!-- <li class="nav-item">
+             <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+         </li>
+         <li class="nav-item">
+             <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+         </li>-->
+    }
+
